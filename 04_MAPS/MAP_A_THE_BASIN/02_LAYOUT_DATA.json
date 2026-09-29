@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "map_id": "map_a_the_basin",
+  "name": "The Basin",
+  "size_m": [
+    6000,
+    6000
+  ],
+  "cell_size_m": 500,
+  "grid": {
+    "cols": "A-L",
+    "rows": "1-12",
+    "origin": "SW",
+    "row_1": "north"
+  },
+  "elevation_m": {
+    "min": 0,
+    "max": 260,
+    "lake_level": 0
+  },
+  "lake_shore_polyline": [
+    [
+      0,
+      1000
+    ],
+    [
+      800,
+      900
+    ],
+    [
+      1600,
+      700
+    ],
+    [
+      2400,
+      650
+    ],
+    [
+      3200,
+      520
+    ],
+    [
+      4000,
+      480
+    ],
+    [
+      4800,
+      700
+    ],
+    [
+      5400,
+      900
+    ],
+    [
+      6000,
+      1000
+    ]
+  ],
+  "districts": [
+    {
+      "id": "spire",
+      "name": "Spire District",
+      "center": [
+        3000,
+        3800
+      ],
+      "size": [
+        1000,
+        900
+      ],
+      "style": "highrise",
+      "density": 0.85,
+      "height_m": [
+        30,
+        180
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "old_market",
+      "name": "Old Market Quarter",
+      "center": [
+        1700,
+        2900
+      ],
+      "size": [
+        900,
+        800
+      ],
+      "style": "market_lowrise",
+      "density": 0.9,
+      "height_m": [
+        6,
+        20
+      ],
+      "loot_tier": 2
+    },
+    {
+      "id": "rail_yard",
+      "name": "Rail Yard 9 & Central Station",
+      "center": [
+        3000,
+        2600
+      ],
+      "size": [
+        1100,
+        500
+      ],
+      "style": "industrial_rail",
+      "density": 0.4,
+      "height_m": [
+        6,
+        25
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "harborline",
+      "name": "Harborline",
+      "center": [
+        3400,
+        900
+      ],
+      "size": [
+        1500,
+        800
+      ],
+      "style": "port",
+      "density": 0.55,
+      "height_m": [
+        8,
+        45
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "mercy",
+      "name": "Mercy Quarter",
+      "center": [
+        1000,
+        1700
+      ],
+      "size": [
+        700,
+        600
+      ],
+      "style": "hospital",
+      "density": 0.6,
+      "height_m": [
+        10,
+        40
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "ember",
+      "name": "Ember Belt",
+      "center": [
+        5000,
+        1500
+      ],
+      "size": [
+        1000,
+        900
+      ],
+      "style": "refinery",
+      "density": 0.5,
+      "height_m": [
+        6,
+        70
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "skyhook",
+      "name": "Skyhook Airfield",
+      "center": [
+        5000,
+        4700
+      ],
+      "size": [
+        1400,
+        900
+      ],
+      "style": "airfield",
+      "density": 0.25,
+      "height_m": [
+        8,
+        45
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "highland",
+      "name": "Highland Estates",
+      "center": [
+        1500,
+        4600
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "style": "villas",
+      "density": 0.35,
+      "height_m": [
+        6,
+        14
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "stadium_uni",
+      "name": "Stadium & University",
+      "center": [
+        4500,
+        3200
+      ],
+      "size": [
+        900,
+        900
+      ],
+      "style": "campus",
+      "density": 0.5,
+      "height_m": [
+        8,
+        40
+      ],
+      "loot_tier": 2
+    },
+    {
+      "id": "solar",
+      "name": "Solar Fields",
+      "center": [
+        3300,
+        5300
+      ],
+      "size": [
+        1500,
+        800
+      ],
+      "style": "solar_open",
+      "density": 0.05,
+      "height_m": [
+        3,
+        30
+      ],
+      "loot_tier": 2
+    },
+    {
+      "id": "dam",
+      "name": "Kestrel Dam & Reservoir",
+      "center": [
+        2300,
+        5400
+      ],
+      "size": [
+        700,
+        500
+      ],
+      "style": "dam",
+      "density": 0.15,
+      "height_m": [
+        6,
+        60
+      ],
+      "loot_tier": 3
+    },
+    {
+      "id": "stilt",
+      "name": "Stilt Quarter",
+      "center": [
+        700,
+        700
+      ],
+      "size": [
+        700,
+        500
+      ],
+      "style": "stilt_houses",
+      "density": 0.5,
+      "height_m": [
+        4,
+        12
+      ],
+      "loot_tier": 2
+    }
+  ],
+  "bases": [
+    {
+      "id": "A1_halo",
+      "name": "Halo Control Center",
+      "center": [
+        900,
+        5350
+      ],
+      "footprint": [
+        220,
+        180
+      ],
+      "elev_m": 230,
+      "boss": "ARCHITECT",
+      "risk_tier": 5,
+      "file": "bases/BASE_A1_HALO_CONTROL_CENTER.md"
+    },
+    {
+      "id": "A2_vault",
+      "name": "Vault Tower",
+      "center": [
+        3150,
+        3950
+      ],
+      "footprint": [
+        120,
+        120
+      ],
+      "elev_m": 45,
+      "boss": "BANKER",
+      "risk_tier": 5,
+      "file": "bases/BASE_A2_VAULT_TOWER.md"
+    },
+    {
+      "id": "A3_ember",
+      "name": "Ember Works",
+      "center": [
+        5000,
+        1500
+      ],
+      "footprint": [
+        420,
+        360
+      ],
+      "elev_m": 25,
+      "boss": "FOREMAN",
+      "risk_tier": 4,
+      "file": "bases/BASE_A3_EMBER_WORKS_REFINERY.md"
+    },
+    {
+      "id": "A4_skyhook",
+      "name": "Skyhook Airfield Base",
+      "center": [
+        4900,
+        4700
+      ],
+      "footprint": [
+        420,
+        300
+      ],
+      "elev_m": 60,
+      "boss": "SKYMARSHAL",
+      "risk_tier": 4,
+      "file": "bases/BASE_A4_SKYHOOK_AIRFIELD.md"
+    },
+    {
+      "id": "A5_mercy",
+      "name": "Mercy General Hospital",
+      "center": [
+        1000,
+        1700
+      ],
+      "footprint": [
+        300,
+        260
+      ],
+      "elev_m": 30,
+      "boss": "SURGEON",
+      "risk_tier": 4,
+      "file": "bases/BASE_A5_MERCY_GENERAL_HOSPITAL.md"
+    },
+    {
+      "id": "A6_harbor",
+      "name": "Harbor Bastion",
+      "center": [
+        3500,
+        700
+      ],
+      "footprint": [
+        450,
+        320
+      ],
+      "elev_m": 4,
+      "boss": "HARBORMASTER",
+      "risk_tier": 4,
+      "file": "bases/BASE_A6_HARBOR_BASTION.md"
+    }
+  ],
+  "pois": [
+    {
+      "id": "spire_plaza",
+      "center": [
+        3000,
+        3600
+      ],
+      "tier": 3
+    },
+    {
+      "id": "skybridge_mall",
+      "center": [
+        2800,
+        4000
+      ],
+      "tier": 3
+    },
+    {
+      "id": "old_market_halls",
+      "center": [
+        1700,
+        2900
+      ],
+      "tier": 2
+    },
+    {
+      "id": "tinsmith_alley",
+      "center": [
+        1400,
+        3200
+      ],
+      "tier": 2
+    },
+    {
+      "id": "clocktower_square",
+      "center": [
+        2100,
+        2700
+      ],
+      "tier": 2
+    },
+    {
+      "id": "rail_yard_9",
+      "center": [
+        3000,
+        2700
+      ],
+      "tier": 3
+    },
+    {
+      "id": "central_station",
+      "center": [
+        3000,
+        2500
+      ],
+      "tier": 3,
+      "underline_entrance": true
+    },
+    {
+      "id": "skyrail_hub",
+      "center": [
+        3300,
+        3200
+      ],
+      "tier": 2
+    },
+    {
+      "id": "stadium",
+      "center": [
+        4600,
+        3000
+      ],
+      "tier": 3
+    },
+    {
+      "id": "university",
+      "center": [
+        4300,
+        3500
+      ],
+      "tier": 2
+    },
+    {
+      "id": "freewheel_yard",
+      "center": [
+        4300,
+        2200
+      ],
+      "tier": 1,
+      "stunt_park": true
+    },
+    {
+      "id": "solar_array",
+      "center": [
+        3300,
+        5300
+      ],
+      "tier": 2
+    },
+    {
+      "id": "turbine_ridge",
+      "center": [
+        2600,
+        5700
+      ],
+      "tier": 2
+    },
+    {
+      "id": "kestrel_dam",
+      "center": [
+        2300,
+        5400
+      ],
+      "tier": 3
+    },
+    {
+      "id": "highland_villas",
+      "center": [
+        1500,
+        4600
+      ],
+      "tier": 3
+    },
+    {
+      "id": "country_club",
+      "center": [
+        2000,
+        4300
+      ],
+      "tier": 2
+    },
+    {
+      "id": "fuel_depot",
+      "center": [
+        4300,
+        1300
+      ],
+      "tier": 2
+    },
+    {
+      "id": "warehouse_row",
+      "center": [
+        2800,
+        1200
+      ],
+      "tier": 2
+    },
+    {
+      "id": "customs_office",
+      "center": [
+        3900,
+        1000
+      ],
+      "tier": 2
+    },
+    {
+      "id": "stilt_quarter",
+      "center": [
+        700,
+        700
+      ],
+      "tier": 2
+    },
+    {
+      "id": "lakeshore_promenade",
+      "center": [
+        2000,
+        900
+      ],
+      "tier": 1
+    },
+    {
+      "id": "radio_tower",
+      "center": [
+        900,
+        4300
+      ],
+      "tier": 2
+    },
+    {
+      "id": "north_quarry",
+      "center": [
+        4200,
+        5600
+      ],
+      "tier": 2
+    }
+  ],
+  "substations": [
+    {
+      "id": "S1",
+      "center": [
+        2400,
+        3400
+      ]
+    },
+    {
+      "id": "S2",
+      "center": [
+        3700,
+        4300
+      ]
+    },
+    {
+      "id": "S3",
+      "center": [
+        4700,
+        2000
+      ]
+    },
+    {
+      "id": "S4",
+      "center": [
+        1200,
+        2400
+      ]
+    }
+  ],
+  "extraction_pool": [
+    {
+      "id": "EP01",
+      "name": "Reservoir Helipad",
+      "center": [
+        2200,
+        5450
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP02",
+      "name": "Solar Landing",
+      "center": [
+        3300,
+        5250
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP03",
+      "name": "Skyhook Apron",
+      "center": [
+        4600,
+        4600
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP04",
+      "name": "Stadium Roof Lot",
+      "center": [
+        4600,
+        3200
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP05",
+      "name": "Ember Rail Spur",
+      "center": [
+        5200,
+        1900
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP06",
+      "name": "Pier 9",
+      "center": [
+        3900,
+        600
+      ],
+      "type": "boat"
+    },
+    {
+      "id": "EP07",
+      "name": "Mercy Roof",
+      "center": [
+        1000,
+        1800
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP08",
+      "name": "Stilt Quarter Dock",
+      "center": [
+        600,
+        600
+      ],
+      "type": "boat"
+    },
+    {
+      "id": "EP09",
+      "name": "Highland Cable Car",
+      "center": [
+        1300,
+        4500
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP10",
+      "name": "Old Market Rooftop",
+      "center": [
+        1600,
+        3000
+      ],
+      "type": "fixed"
+    },
+    {
+      "id": "EP11",
+      "name": "West Send-Off Ramp",
+      "center": [
+        240,
+        3300
+      ],
+      "type": "send_off"
+    },
+    {
+      "id": "EP12",
+      "name": "East Send-Off Ramp",
+      "center": [
+        5760,
+        3000
+      ],
+      "type": "send_off"
+    }
+  ],
+  "send_off_ramps": [
+    {
+      "id": "SO_W",
+      "lip": [
+        240,
+        3300
+      ],
+      "heading_deg": 270,
+      "gap_m": 34,
+      "landing": [
+        190,
+        3300
+      ],
+      "min_speed_kmh": 88,
+      "canal_x": [
+        206,
+        240
+      ]
+    },
+    {
+      "id": "SO_E",
+      "lip": [
+        5760,
+        3000
+      ],
+      "heading_deg": 90,
+      "gap_m": 34,
+      "landing": [
+        5810,
+        3000
+      ],
+      "min_speed_kmh": 88,
+      "canal_x": [
+        5760,
+        5794
+      ]
+    }
+  ],
+  "rail_pods": [
+    {
+      "id": "POD_CENTRAL",
+      "station": [
+        3000,
+        2500
+      ]
+    },
+    {
+      "id": "POD_STADIUM",
+      "station": [
+        4500,
+        3100
+      ]
+    },
+    {
+      "id": "POD_EMBER",
+      "station": [
+        4900,
+        1600
+      ]
+    }
+  ],
+  "last_bird_sites": [
+    {
+      "id": "LB_SKYHOOK",
+      "center": [
+        4700,
+        4700
+      ],
+      "kind": "runway"
+    },
+    {
+      "id": "LB_PIER9",
+      "center": [
+        3900,
+        550
+      ],
+      "kind": "barge"
+    },
+    {
+      "id": "LB_SOLAR",
+      "center": [
+        3300,
+        5250
+      ],
+      "kind": "helipad"
+    }
+  ],
+  "ramps": [
+    {
+      "id": "R01",
+      "type": "big_air",
+      "pos": [
+        3550,
+        760
+      ],
+      "heading_deg": 90,
+      "gap_m": 30,
+      "note": "harbor quay to pier"
+    },
+    {
+      "id": "R02",
+      "type": "kicker",
+      "pos": [
+        3300,
+        900
+      ],
+      "heading_deg": 0,
+      "gap_m": 10
+    },
+    {
+      "id": "R03",
+      "type": "step_up",
+      "pos": [
+        3100,
+        2800
+      ],
+      "heading_deg": 90,
+      "gap_m": 14,
+      "note": "over tracks"
+    },
+    {
+      "id": "R04",
+      "type": "big_air",
+      "pos": [
+        3000,
+        3300
+      ],
+      "heading_deg": 0,
+      "gap_m": 28,
+      "note": "canal to Spire plaza"
+    },
+    {
+      "id": "R05",
+      "type": "whoops",
+      "pos": [
+        4300,
+        2100
+      ],
+      "heading_deg": 90
+    },
+    {
+      "id": "R06",
+      "type": "quarter_pipe",
+      "pos": [
+        4350,
+        2250
+      ],
+      "heading_deg": 0
+    },
+    {
+      "id": "R07",
+      "type": "big_air",
+      "pos": [
+        4500,
+        2300
+      ],
+      "heading_deg": 180,
+      "gap_m": 32
+    },
+    {
+      "id": "R08",
+      "type": "kicker",
+      "pos": [
+        1700,
+        3050
+      ],
+      "heading_deg": 90,
+      "gap_m": 9,
+      "note": "rooftop chain 1"
+    },
+    {
+      "id": "R09",
+      "type": "step_up",
+      "pos": [
+        1780,
+        3060
+      ],
+      "heading_deg": 90,
+      "gap_m": 15,
+      "note": "rooftop chain 2"
+    },
+    {
+      "id": "R10",
+      "type": "big_air",
+      "pos": [
+        4200,
+        1450
+      ],
+      "heading_deg": 90,
+      "gap_m": 34,
+      "note": "pipe rack gap"
+    },
+    {
+      "id": "R11",
+      "type": "step_up",
+      "pos": [
+        4800,
+        4600
+      ],
+      "heading_deg": 90,
+      "gap_m": 16,
+      "note": "hangar row"
+    },
+    {
+      "id": "R12",
+      "type": "kicker",
+      "pos": [
+        1400,
+        4500
+      ],
+      "heading_deg": 200,
+      "gap_m": 10
+    },
+    {
+      "id": "R13",
+      "type": "big_air",
+      "pos": [
+        2300,
+        5300
+      ],
+      "heading_deg": 0,
+      "gap_m": 26,
+      "note": "spillway"
+    },
+    {
+      "id": "R14",
+      "type": "step_up",
+      "pos": [
+        900,
+        1600
+      ],
+      "heading_deg": 90,
+      "gap_m": 13,
+      "note": "hospital service ramp"
+    },
+    {
+      "id": "R15",
+      "type": "big_air",
+      "pos": [
+        1050,
+        5250
+      ],
+      "heading_deg": 300,
+      "gap_m": 12,
+      "note": "Halo moat service ramp"
+    },
+    {
+      "id": "R16",
+      "type": "big_air",
+      "pos": [
+        3050,
+        3850
+      ],
+      "heading_deg": 45,
+      "gap_m": 18,
+      "note": "Vault Tower lobby ramp"
+    },
+    {
+      "id": "R17",
+      "type": "step_up",
+      "pos": [
+        3450,
+        830
+      ],
+      "heading_deg": 0,
+      "gap_m": 12,
+      "note": "Harbor container stack chain"
+    }
+  ],
+  "stunt_lines": [
+    {
+      "id": "SL1",
+      "name": "Canal Run",
+      "polyline": [
+        [
+          260,
+          600
+        ],
+        [
+          260,
+          2400
+        ],
+        [
+          260,
+          3300
+        ]
+      ],
+      "ramps": []
+    },
+    {
+      "id": "SL2",
+      "name": "Harbor Crane Line",
+      "polyline": [
+        [
+          3200,
+          900
+        ],
+        [
+          3550,
+          760
+        ],
+        [
+          3900,
+          620
+        ]
+      ],
+      "ramps": [
+        "R02",
+        "R01"
+      ]
+    },
+    {
+      "id": "SL3",
+      "name": "Rail Hop",
+      "polyline": [
+        [
+          3100,
+          2800
+        ],
+        [
+          3000,
+          3300
+        ]
+      ],
+      "ramps": [
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "SL4",
+      "name": "Rooftop Ramp Chain",
+      "polyline": [
+        [
+          1700,
+          3050
+        ],
+        [
+          1780,
+          3060
+        ]
+      ],
+      "ramps": [
+        "R08",
+        "R09"
+      ]
+    },
+    {
+      "id": "SL5",
+      "name": "Fairground Loop",
+      "polyline": [
+        [
+          4300,
+          2100
+        ],
+        [
+          4350,
+          2250
+        ],
+        [
+          4500,
+          2300
+        ]
+      ],
+      "ramps": [
+        "R05",
+        "R06",
+        "R07"
+      ]
+    }
+  ],
+  "roads": [
+    {
+      "id": "ring_road",
+      "polyline": [
+        [
+          500,
+          500
+        ],
+        [
+          5500,
+          500
+        ],
+        [
+          5500,
+          5500
+        ],
+        [
+          500,
+          5500
+        ],
+        [
+          500,
+          500
+        ]
+      ],
+      "surface": "tarmac",
+      "width_m": 12
+    },
+    {
+      "id": "spine_highway",
+      "polyline": [
+        [
+          3000,
+          300
+        ],
+        [
+          3000,
+          5700
+        ]
+      ],
+      "surface": "tarmac",
+      "width_m": 16
+    },
+    {
+      "id": "lakeshore_drive",
+      "polyline": [
+        [
+          300,
+          1100
+        ],
+        [
+          1500,
+          1000
+        ],
+        [
+          3000,
+          900
+        ],
+        [
+          4500,
+          1000
+        ],
+        [
+          5700,
+          1100
+        ]
+      ],
+      "surface": "tarmac",
+      "width_m": 10
+    },
+    {
+      "id": "rail_corridor",
+      "polyline": [
+        [
+          300,
+          2700
+        ],
+        [
+          3000,
+          2700
+        ],
+        [
+          5700,
+          2900
+        ]
+      ],
+      "surface": "dirt",
+      "width_m": 8
+    },
+    {
+      "id": "ridge_road",
+      "polyline": [
+        [
+          800,
+          4200
+        ],
+        [
+          1000,
+          5300
+        ],
+        [
+          1800,
+          5600
+        ],
+        [
+          2600,
+          5700
+        ]
+      ],
+      "surface": "dirt",
+      "width_m": 7
+    },
+    {
+      "id": "airfield_road",
+      "polyline": [
+        [
+          3000,
+          4700
+        ],
+        [
+          4300,
+          4700
+        ],
+        [
+          5000,
+          4700
+        ]
+      ],
+      "surface": "tarmac",
+      "width_m": 10
+    },
+    {
+      "id": "refinery_road",
+      "polyline": [
+        [
+          3000,
+          1500
+        ],
+        [
+          4500,
+          1500
+        ],
+        [
+          5000,
+          1500
+        ]
+      ],
+      "surface": "tarmac",
+      "width_m": 10
+    }
+  ],
+  "vehicle_spawn_zones": [
+    {
+      "id": "VZ_rail",
+      "center": [
+        3100,
+        2600
+      ],
+      "mix": {
+        "bike": 6,
+        "buggy": 1,
+        "quad": 1
+      }
+    },
+    {
+      "id": "VZ_freewheel",
+      "center": [
+        4400,
+        2300
+      ],
+      "mix": {
+        "bike": 8,
+        "quad": 1
+      }
+    },
+    {
+      "id": "VZ_harbor",
+      "center": [
+        3600,
+        800
+      ],
+      "mix": {
+        "bike": 5,
+        "jeep": 1,
+        "skiff": 3
+      }
+    },
+    {
+      "id": "VZ_mercy",
+      "center": [
+        1000,
+        1800
+      ],
+      "mix": {
+        "bike": 4,
+        "buggy": 1
+      }
+    },
+    {
+      "id": "VZ_skyhook",
+      "center": [
+        5100,
+        4500
+      ],
+      "mix": {
+        "bike": 5,
+        "jeep": 1,
+        "buggy": 1
+      }
+    },
+    {
+      "id": "VZ_club",
+      "center": [
+        2100,
+        4300
+      ],
+      "mix": {
+        "bike": 4,
+        "quad": 2
+      }
+    },
+    {
+      "id": "VZ_ember",
+      "center": [
+        5000,
+        1400
+      ],
+      "mix": {
+        "bike": 4,
+        "jeep": 1,
+        "buggy": 1
+      }
+    },
+    {
+      "id": "VZ_market",
+      "center": [
+        1700,
+        2800
+      ],
+      "mix": {
+        "bike": 4,
+        "quad": 1,
+        "skiff": 0
+      }
+    },
+    {
+      "id": "VZ_stilt",
+      "center": [
+        700,
+        750
+      ],
+      "mix": {
+        "bike": 2,
+        "skiff": 3
+      }
+    }
+  ],
+  "airdrop_zones": [
+    {
+      "center": [
+        1500,
+        1500
+      ],
+      "radius_m": 300
+    },
+    {
+      "center": [
+        4500,
+        1500
+      ],
+      "radius_m": 300
+    },
+    {
+      "center": [
+        1500,
+        4500
+      ],
+      "radius_m": 300
+    },
+    {
+      "center": [
+        4500,
+        4500
+      ],
+      "radius_m": 300
+    },
+    {
+      "center": [
+        3000,
+        3000
+      ],
+      "radius_m": 300
+    },
+    {
+      "center": [
+        3000,
+        5000
+      ],
+      "radius_m": 300
+    }
+  ],
+  "dimming_center_candidates": [
+    [
+      3000,
+      3000
+    ],
+    [
+      3200,
+      3500
+    ],
+    [
+      2800,
+      2600
+    ],
+    [
+      3500,
+      3000
+    ],
+    [
+      2500,
+      3300
+    ],
+    [
+      3300,
+      2500
+    ],
+    [
+      3000,
+      3800
+    ],
+    [
+      2600,
+      2800
+    ]
+  ],
+  "dropship_lines": {
+    "count": 16,
+    "rule": "line passes within 800 m of map centre; start/end on perimeter; seed from matchSeed"
+  },
+  "exposure_zones": [
+    {
+      "id": "EZ_indoor",
+      "type": "indoor",
+      "auto_from": "interior_volumes"
+    },
+    {
+      "id": "EZ_tunnel",
+      "type": "night",
+      "box": [
+        [
+          2900,
+          2400
+        ],
+        [
+          5000,
+          3200
+        ]
+      ]
+    }
+  ],
+  "audio_zones": [
+    {
+      "id": "AZ_harbor",
+      "center": [
+        3400,
+        800
+      ],
+      "radius_m": 500,
+      "ambience": "harbor_wind_gulls_cranes"
+    },
+    {
+      "id": "AZ_spire",
+      "center": [
+        3000,
+        3800
+      ],
+      "radius_m": 600,
+      "ambience": "city_hum_wind_canyons"
+    },
+    {
+      "id": "AZ_ember",
+      "center": [
+        5000,
+        1500
+      ],
+      "radius_m": 500,
+      "ambience": "pipe_hiss_flare_roar"
+    }
+  ]
+}
